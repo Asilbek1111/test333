@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+  font-family: serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+.number-input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  background-color: #d3d3d3;
+  outline: none;
+  width: 100px;
+}
+
+.send-btn {
+  background-color: #2e2e2e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.counter {
+  background: linear-gradient(to bottom, #2e2e2e, #1c1c1c);
+  border-radius: 20px;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 30px;
+}
+
+.counter-btn {
+  background: none;
+  color: white;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.counter-value {
+  font-size: 30px;
+}
+
+.color-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.color-label {
+  font-size: 24px;
+}
+
+.color-box {
+  width: 30px;
+  height: 20px;
+  border: 3px solid white;
+}
